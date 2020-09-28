@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 1cde5a450620c284d9e4f9faf3882944
+guid: 1802eda84cc1e44b69086f4f5dc56b0c
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: well_colors
-    second: {fileID: 2100000, guid: d6771f7c52e121c4dbac125dc5ecf4f9, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
