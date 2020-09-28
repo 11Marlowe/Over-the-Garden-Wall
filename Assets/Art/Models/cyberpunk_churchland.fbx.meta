@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: e3e37560ce179fe4bbd1098a765b002e
+guid: dac834925c4244c51acaaef56d9502b3
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: fancy_edge
-    second: {fileID: 2100000, guid: 44cc829dac4ab774dab695118b4fefb4, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
