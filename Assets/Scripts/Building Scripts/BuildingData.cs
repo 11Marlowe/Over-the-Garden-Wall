@@ -7,4 +7,5 @@ public class BuildingData : ScriptableObject
 {
     public Vector3 offset;
     public GameObject model;
+    public Vector3 size;
 }

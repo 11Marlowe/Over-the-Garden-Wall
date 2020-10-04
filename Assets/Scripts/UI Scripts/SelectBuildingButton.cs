@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GridData : MonoBehaviour
+public class SelectBuildingButton : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -10,9 +10,8 @@ public class GridData : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void onClickSelectBuilding(int type)
     {
-        
+        EventManager.selectBuilding((GridController.BuildingType) type);
     }
 }

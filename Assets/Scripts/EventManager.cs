@@ -7,15 +7,16 @@ public class EventManager : MonoBehaviour
     public delegate void AddBuildingToGrid();
     public static event AddBuildingToGrid buildingPlaced;
 
-    // Start is called before the first frame update
-    void Start()
+    public delegate void SelectBuilding(GridController.BuildingType type);
+    public static event SelectBuilding buildingSelected;
+
+    public static void placeBuilding()
     {
-        
+        buildingPlaced?.Invoke();
     }
 
-    // Update is called once per frame
-    void Update()
+    public static void selectBuilding(GridController.BuildingType type)
     {
-        
+        buildingSelected?.Invoke(type);
     }
 }
